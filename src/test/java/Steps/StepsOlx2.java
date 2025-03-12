@@ -18,7 +18,7 @@ public void que_esteja_na_pagina_do_site(String string) {
 
 @Quando("informar um email valido")
 public void informar_um_email_valido() throws InterruptedException {
-	metodo.pausar(2000);
+	
 	metodo.clicar(elemento.getBtnFechacoock());
     metodo.clicar(elemento.getBtnEntrar());
     metodo.pausar(4000);
