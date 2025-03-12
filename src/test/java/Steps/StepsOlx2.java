@@ -1,5 +1,7 @@
 package Steps;
 
+import java.io.IOException;
+
 import Elementos.ElementosOlx2;
 import Metodos.MetodosOlx2;
 import io.cucumber.java.es.Dado;
@@ -17,8 +19,9 @@ public void que_esteja_na_pagina_do_site(String string) {
 }
 
 @Quando("informar um email valido")
-public void informar_um_email_valido() throws InterruptedException {
+public void informar_um_email_valido() throws InterruptedException, IOException {
 	metodo.pausar(5000);
+metodo.tirarPrint("sim");
 	metodo.clicar(elemento.getBtnFechacoock());
     metodo.clicar(elemento.getBtnEntrar());
     metodo.pausar(4000);
