@@ -9,16 +9,16 @@ public class ElementosOlx2 {
 	private By BtnControleAceitar = By.id("adopt-accept-all-button");
 	private By BtnEmail = By.xpath("//*[@id=\"input-1\"]");
 	private By BtnContinuar = By.cssSelector("#__next > div > div.sc-fAfrNB.eHdYhy.olx-container.olx-container--outlined.olx-d-flex > div.sc-eNPDpu.gUfQUE.sc-hmyDHa.eNhvhR > form > div.olx-d-flex.olx-mt-4 > button");
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
 	public By getBtnFechacoock() {
 		return BtnFechacoock;
 	}
@@ -97,6 +97,6 @@ public class ElementosOlx2 {
 	public By getBtnContinuar() {
 		return BtnContinuar;
 	}
-	
-	
+
+
 }

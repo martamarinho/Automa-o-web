@@ -9,7 +9,7 @@ import io.cucumber.java.it.Quando;
 import io.cucumber.java.pt.Então;
 
 public class StepsOlx2 {
-	
+
 MetodosOlx2 metodo = new MetodosOlx2 ();
 ElementosOlx2 elemento = new ElementosOlx2 ();
 
@@ -32,7 +32,7 @@ metodo.tirarPrint("sim");
 
 @Então("sera direcionado para a proxima pagina")
 public void sera_direcionado_para_a_proxima_pagina() {
-    
+
 }
 
 

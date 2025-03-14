@@ -77,12 +77,12 @@ public class MetodosOlx2 {
 
 		public void preencherCampo(By campoCPF, String string) {
 			// TODO Auto-generated method stub
-			
+
 		}
 
 		public void tirarPrint(By informacoesenviadas) {
 			// TODO Auto-generated method stub
-			
+
 		}
 		 public void preencherEspaco(By elemento, String texto) {
 		    	driver.findElement(elemento).sendKeys(texto);
@@ -91,6 +91,6 @@ public class MetodosOlx2 {
       public void preencherDados(By elemento, String texto) {
 	      driver.findElement(elemento).sendKeys(texto);
 }
-}		
+}
 
 
