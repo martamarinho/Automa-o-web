@@ -20,7 +20,7 @@ public void que_esteja_na_pagina_do_site(String string) {
 
 @Quando("informar um email valido")
 public void informar_um_email_valido() throws InterruptedException, IOException {
-	metodo.pausar(5000);
+	metodo.pausar(3000);
 metodo.tirarPrint("sim");
 	metodo.clicar(elemento.getBtnFechacoock());
     metodo.clicar(elemento.getBtnEntrar());
